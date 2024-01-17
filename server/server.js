@@ -5,7 +5,7 @@ const userRouter = require("./routes/user");
 
 const PORT = 3000;
 
-app.use(cors());
+app.use(cors()); //試験中
 app.set("view engine", "ejs");
 
 app.get("/",  (req, res) => {

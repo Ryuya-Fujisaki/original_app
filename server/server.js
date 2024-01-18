@@ -1,5 +1,7 @@
 const express = require("express");
+const jwt = require("jsonwebtoken");
 const cors = require("cors"); //試験中
+
 const app = express();
 const userRouter = require("./routes/user");
 

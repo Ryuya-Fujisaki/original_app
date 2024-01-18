@@ -1,11 +1,11 @@
 {
-  "name": "express_training",
+  "name": "original_app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon original_app/server/server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +15,8 @@
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "nodemon": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.0.3",
     "pg": "^8.11.3"
   }
 }
